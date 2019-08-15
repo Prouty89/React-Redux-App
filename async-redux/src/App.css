@@ -1,14 +1,53 @@
 @import url('https://fonts.googleapis.com/css?family=Yatra+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Laila&display=swap');
 
 
 .App-header {
   font-family: 'Yatra One', cursive;
-  background-color: #282c34;
-  min-height: 100vh;
-  color: rgb(28, 243, 243);
+  min-height: 100px;
+  color: #3b2e04;
+  margin-left: 3%;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  font-size: calc(30px + 2vmin);
+  align-items: left;
+  font-size: calc(35px + 2vmin);
+  text-shadow: 
+      2px 2px 0px #554242b6, 
+      5px 7px 0px rgba(0, 0, 0, 0.2);
 }
 
+.user-exp{
+  display: grid;
+  grid-gap: 1em;
+  grid-template-columns: repeat(2, minmax(350px, 1fr));
+  grid-template-rows: auto;
+  font-family: 'Laila', serif;
+  
+}
+
+.boxes{
+  display: flex;
+  flex-direction: column;
+  height: 60vmin;
+  text-align: center;
+  font-size: 1.3rem;
+  width: 500px;
+  margin: 0 auto;
+  margin-top: 15%;
+  background: rgb(105,85,45, .45);
+  border-radius: 1%;
+}
+
+
+
+/* margin: 0 auto;
+margin-top: 15%;
+color: black;
+width: 82%;
+height: 55vmin;
+text-align: center;
+border-radius: 1%;
+background: rgb(105, 85, 45);
+opacity: .45;
+justify-content: center;
+align-items: center; */

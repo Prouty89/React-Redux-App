@@ -38,16 +38,13 @@
   border-radius: 1%;
 }
 
+.return-btn{
+  color: black;
+  width: 30%;
+  margin: 0 auto;
+  border-radius: 1%;
+  border: none;
+  height: 50px;
+  
+}
 
-
-/* margin: 0 auto;
-margin-top: 15%;
-color: black;
-width: 82%;
-height: 55vmin;
-text-align: center;
-border-radius: 1%;
-background: rgb(105, 85, 45);
-opacity: .45;
-justify-content: center;
-align-items: center; */

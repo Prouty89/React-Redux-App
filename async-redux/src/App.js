@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import DataList from './components/DataList'
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
          User Input
        </div>
        <div className= "boxes">
+         <DataList />
          API Data
        </div>
       </div>

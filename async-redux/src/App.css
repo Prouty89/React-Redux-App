@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=Yatra+One&display=swap');
+
+
+.App-header {
+  font-family: 'Yatra One', cursive;
+  background-color: #282c34;
+  min-height: 100vh;
+  color: rgb(28, 243, 243);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: calc(30px + 2vmin);
+}
+

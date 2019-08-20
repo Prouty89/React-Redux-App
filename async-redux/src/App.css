@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css?family=Yatra+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Laila&display=swap');
+
+
+.App-header {
+  font-family: 'Yatra One', cursive;
+  min-height: 100px;
+  color: #3b2e04;
+  margin-left: 3%;
+  display: flex;
+  align-items: left;
+  font-size: calc(35px + 2vmin);
+  text-shadow: 
+      2px 2px 0px #554242b6, 
+      5px 7px 0px rgba(0, 0, 0, 0.2);
+}
+
+.user-exp{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-template-rows: auto;
+  font-family: 'Laila', serif;
+  grid-gap: 1%;
+}
+
+.boxes{
+  height: 100%;
+  min-height: 650px;
+  text-align: center;
+  font-size: 1.3rem;
+  width: 600px;
+  margin: 0 auto;
+  background: rgb(105,85,45, .65);
+  border-radius: 1%;
+}
+
+.boxes:hover{
+  background:rgb(105,85,45);
+}
+
+.return-btn{
+  color: black;
+  width: 30%;
+  margin: 0 auto;
+  border-radius: 1%;
+  border: none;
+  height: 50px;
+}
+
+.city-cards{
+  color: white;
+}
+
+.india-info{
+display: flex;
+color: white;
+margin: 1%;
+}
+
+.boxes .flag{
+  height: 118px;
+  width: 118;
+}
+
